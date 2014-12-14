@@ -3,6 +3,9 @@
   "version": "0.0.2",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test.js"
+  },
   "dependencies": {
     "chai": "1.9.1"
   },
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/claydotio/clay-chai/issues"
   },
-  "homepage": "https://github.com/claydotio/clay-chai"
+  "homepage": "https://github.com/claydotio/clay-chai",
+  "devDependencies": {
+    "mocha": "2.0.1"
+  }
 }
